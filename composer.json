@@ -1,0 +1,23 @@
+{
+    "name": "westwerk/contao-conditional-inserttags",
+    "description": "Adds conditional inserttags to Contao.",
+    "type": "contao-module",
+    "require": {
+        "php": ">=5.4",
+        "contao/core": ">=3.2,<=4",
+        "symfony/expression-language": "~2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Westwerk\\Contao\\ConditionalInsertTags\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Rüttgers",
+            "email": "mr@westwerk.ac"
+        }
+    ],
+    "minimum-stability": "dev"
+}
