@@ -28,13 +28,13 @@ class InsertTags
         $parts = explode('::', $tag);
         switch($parts[0]) {
             case 'if':
-            case 'ifn':
+            case 'nif':
                 if (count($parts) > 1) {
 
                     // Use ExpressionLanguage vor evaluation
                     $expr = $this->el->evaluate($parts[1]);
 
-                    if (($parts[0] === 'if' && !$expr) || ($parts[0] === 'ifn' && $expr)) {
+                    if (($parts[0] === 'if' && !$expr) || ($parts[0] === 'nif' && $expr)) {
                         for (; $_rit < $_cnt; $_rit += 3) {
                             if ($tags[$_rit + 1] == $parts[0]) {
                                 break;
