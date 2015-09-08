@@ -2,6 +2,11 @@
     "name": "westwerk/contao-conditional-inserttags",
     "description": "Adds conditional inserttags to Contao.",
     "type": "contao-module",
+    "keywords": [
+        "contao",
+        "inserttags",
+        "westwerk"
+    ],
     "require": {
         "php": ">=5.4",
         "contao/core": ">=3.2,<=4",
@@ -17,8 +22,17 @@
         {
             "name": "Michael Rüttgers",
             "email": "mr@westwerk.ac"
+        },
+         {
+          "name": "Tim Becker",
+          "email": "tb@westwerk.ac"
         }
     ],
+    "support": {
+        "email": "web@westwerk.ac",
+        "issues": "https://github.com/westwerk-ac/contao-conditional-inserttags/issues",
+        "source": "https://github.com/westwerk-ac/contao-conditional-inserttags"
+    },
     "minimum-stability": "dev",
     "extra":{
         "branch-alias": {
